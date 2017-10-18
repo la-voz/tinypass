@@ -1,0 +1,5 @@
+{
+  "code" : 5001,
+  "ts" : 1508359722,
+  "message" : "Either the `user_id` or the `emails` parameter should be specified."
+}

@@ -6,6 +6,8 @@
 
     <php>
         <server name="ENV" value="test"/>
+        <env name="API_TOKEN" value="TOKEN"/>
+        <env name="APPLICATION_ID" value="AID"/>
     </php>
 
     <testsuites>

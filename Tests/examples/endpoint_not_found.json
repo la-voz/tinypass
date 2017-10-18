@@ -1,0 +1,5 @@
+{
+  "code" : 404,
+  "ts" : 1508354818,
+  "message" : "Endpoint does not exist: /api/v3/"
+}

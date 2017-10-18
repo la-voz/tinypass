@@ -1,0 +1,39 @@
+{
+  "code": 0,
+  "ts": 1508359933,
+  "limit": 1,
+  "offset": 0,
+  "total": 1,
+  "count": 1,
+  "data": [
+    {
+      "access_id": "ACCESSID",
+      "parent_access_id": null,
+      "granted": true,
+      "resource": {
+        "rid": "RID",
+        "aid": "AID",
+        "deleted": false,
+        "disabled": false,
+        "create_date": 1506601320,
+        "update_date": 1507317246,
+        "publish_date": 1506601320,
+        "name": "Test",
+        "description": "",
+        "image_url": null,
+        "type": "standard",
+        "type_label": "Standard",
+        "purchase_url": null,
+        "resource_url": "http:\/\/www.example.com\/login"
+      },
+      "user": {
+        "first_name": "Test",
+        "last_name": "Test",
+        "email": "test@test.com",
+        "uid": "1084516",
+        "image1": null,
+        "create_date": 1506965428
+      }
+    }
+  ]
+}
