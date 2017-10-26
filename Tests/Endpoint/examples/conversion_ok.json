@@ -1,0 +1,545 @@
+{
+  "code": 0,
+  "ts": 1509049278,
+  "conversion": {
+    "term_conversion_id": "TCE4L76UH5UR",
+    "term": {
+      "aid": "hosLu9lGKn",
+      "term_id": "TMMD1M00JKH1",
+      "resource": {
+        "rid": "RNKAHUD",
+        "aid": "hosLu9lGKn",
+        "deleted": false,
+        "disabled": false,
+        "create_date": 1508966028,
+        "update_date": 1508966028,
+        "publish_date": 1508966028,
+        "name": "Prueba gretis",
+        "description": "",
+        "image_url": null,
+        "type": "standard",
+        "type_label": "Standard",
+        "purchase_url": null,
+        "resource_url": null
+      },
+      "name": "Prueba Gratis",
+      "description": "",
+      "type": "payment",
+      "type_name": "Payment",
+      "create_date": 1508966115
+    },
+    "aid": "hosLu9lGKn",
+    "type": "Subscription",
+    "user_access": {
+      "access_id": "7GCwDOtNHQaJ",
+      "parent_access_id": null,
+      "granted": true,
+      "resource": {
+        "rid": "RNKAHUD",
+        "aid": "hosLu9lGKn",
+        "deleted": false,
+        "disabled": false,
+        "create_date": 1508966028,
+        "update_date": 1508966028,
+        "publish_date": 1508966028,
+        "name": "Prueba gretis",
+        "description": "",
+        "image_url": null,
+        "type": "standard",
+        "type_label": "Standard",
+        "purchase_url": null,
+        "resource_url": null
+      },
+      "user": {
+        "first_name": "Mauricio",
+        "last_name": "Rucci",
+        "email": "mauriciorucci@gmail.com",
+        "uid": "965342",
+        "image1": null,
+        "create_date": 1507215009
+      },
+      "expire_date": 1511758799,
+      "start_date": 1509020759
+    },
+    "create_date": 1509020760,
+    "browser_id": "H4fjPI5rVcxsisARwIxmUJUvETbHuFsKDRpaR7zMKvGOkVcV7eeu4ASr4CIr",
+    "user_payment": {
+      "user_payment_id": "UPA8LIPCSB1I",
+      "create_date": "2017-10-26T08:25:59.000-04:00",
+      "renewal": false,
+      "amount": 1,
+      "currency": "ARS",
+      "subscription": {
+        "subscription_id": "RCRH1WRIZZVC",
+        "auto_renew": true,
+        "next_bill_date": 1511702760,
+        "payment_method": "Card ending in 0486",
+        "user_payment_info_id": "PM8PXXZD52VE",
+        "upi_ext_customer_id": "",
+        "upi_ext_customer_id_label": null,
+        "billing_plan": "ARS1 per month / free trial for 1 month",
+        "cancelable": true,
+        "cancelable_and_refundadle": false,
+        "status": "active",
+        "status_name": "Active",
+        "status_name_in_reports": "active",
+        "term": {
+          "aid": "hosLu9lGKn",
+          "term_id": "TMMD1M00JKH1",
+          "resource": {
+            "rid": "RNKAHUD",
+            "aid": "hosLu9lGKn",
+            "deleted": false,
+            "disabled": false,
+            "create_date": 1508966028,
+            "update_date": 1508966028,
+            "publish_date": 1508966028,
+            "name": "Prueba gretis",
+            "description": "",
+            "image_url": null,
+            "type": "standard",
+            "type_label": "Standard",
+            "purchase_url": null,
+            "resource_url": null
+          },
+          "name": "Prueba Gratis",
+          "description": "",
+          "type": "payment",
+          "type_name": "Payment",
+          "create_date": 1508966115
+        },
+        "user": {
+          "first_name": "Mauricio",
+          "last_name": "Rucci",
+          "email": "mauriciorucci@gmail.com",
+          "uid": "965342",
+          "image1": null,
+          "create_date": 1507215009
+        },
+        "resource": {
+          "rid": "RNKAHUD",
+          "aid": "hosLu9lGKn",
+          "deleted": false,
+          "disabled": false,
+          "create_date": 1508966028,
+          "update_date": 1508966028,
+          "publish_date": 1508966028,
+          "name": "Prueba gretis",
+          "description": "",
+          "image_url": null,
+          "type": "standard",
+          "type_label": "Standard",
+          "purchase_url": null,
+          "resource_url": null
+        },
+        "start_date": 1509020760,
+        "user_address": {
+          "user_address_id": "UA3BAFAZTUO4",
+          "region": {
+            "region_name": "Córdoba",
+            "region_code": "CD",
+            "region_id": "RYGLN1LS14XF"
+          },
+          "country": {
+            "country_name": "Argentina",
+            "country_code": "AR",
+            "country_id": "CCKRG1DD16OW",
+            "regions": [
+              {
+                "region_name": "Ciudad Autónoma de Buenos Aires",
+                "region_code": "CF",
+                "region_id": "RROVL7LW08AL"
+              },
+              {
+                "region_name": "Buenos Aires",
+                "region_code": "BA",
+                "region_id": "RFTCF7AW28LR"
+              },
+              {
+                "region_name": "Catamarca",
+                "region_code": "CT",
+                "region_id": "RAABG1WX98PK"
+              },
+              {
+                "region_name": "Chaco",
+                "region_code": "CC",
+                "region_id": "RGBLB9PB55HR"
+              },
+              {
+                "region_name": "Chubut",
+                "region_code": "CH",
+                "region_id": "RMLSE8NC96JU"
+              },
+              {
+                "region_name": "Córdoba",
+                "region_code": "CD",
+                "region_id": "RYGLN1LS14XF"
+              },
+              {
+                "region_name": "Corrientes",
+                "region_code": "CR",
+                "region_id": "RHXQL3OP30GY"
+              },
+              {
+                "region_name": "Entre Ríos",
+                "region_code": "ER",
+                "region_id": "RCNKL9JY79IV"
+              },
+              {
+                "region_name": "Formosa",
+                "region_code": "FO",
+                "region_id": "RCCFR7US17CJ"
+              },
+              {
+                "region_name": "Jujuy",
+                "region_code": "JY",
+                "region_id": "RLGUG8OD07TL"
+              },
+              {
+                "region_name": "La Pampa",
+                "region_code": "LP",
+                "region_id": "RZNQS6XS89DZ"
+              },
+              {
+                "region_name": "La Rioja",
+                "region_code": "LR",
+                "region_id": "RLGZE8SC29WP"
+              },
+              {
+                "region_name": "Mendoza",
+                "region_code": "MZ",
+                "region_id": "RLLVT3NM91XB"
+              },
+              {
+                "region_name": "Misiones",
+                "region_code": "MN",
+                "region_id": "ROSWG5BP71HB"
+              },
+              {
+                "region_name": "Neuquén",
+                "region_code": "NQ",
+                "region_id": "RKUVU4AS38FM"
+              },
+              {
+                "region_name": "Río Negro",
+                "region_code": "RN",
+                "region_id": "RUNFK4AT74VZ"
+              },
+              {
+                "region_name": "Salta",
+                "region_code": "SA",
+                "region_id": "RKDKR0IL16PD"
+              },
+              {
+                "region_name": "San Juan",
+                "region_code": "SJ",
+                "region_id": "RXCUQ8JE85GP"
+              },
+              {
+                "region_name": "San Luis",
+                "region_code": "SL",
+                "region_id": "RGMSB1LW04JK"
+              },
+              {
+                "region_name": "Santa Cruz",
+                "region_code": "SC",
+                "region_id": "RVANP4IH59DR"
+              },
+              {
+                "region_name": "Santa Fe",
+                "region_code": "SF",
+                "region_id": "RACIM3MF64PM"
+              },
+              {
+                "region_name": "Santiago del Estero",
+                "region_code": "SE",
+                "region_id": "RPOYB4YM52MU"
+              },
+              {
+                "region_name": "Tierra del Fuego",
+                "region_code": "TF",
+                "region_id": "RMCBZ6IS60LX"
+              },
+              {
+                "region_name": "Tucumán",
+                "region_code": "TM",
+                "region_id": "RHRPX6SN48VP"
+              }
+            ]
+          },
+          "city": "Cordoba",
+          "postal_code": "5000 Envio",
+          "company_name": null,
+          "first_name": "Nombre Envio",
+          "last_name": "Apellido Envio",
+          "address1": "Domicilio Envio",
+          "address2": "Barrio Envio",
+          "phone": "Envio",
+          "additional_fields": "{}"
+        },
+        "is_in_trial": true,
+        "trial_period_end_date": 1511702760,
+        "trial_amount": 0,
+        "trial_currency": "ARS",
+        "charge_count": 0
+      },
+      "payment_method": "Card ending in 0486",
+      "upi_ext_customer_id": "",
+      "upi_ext_customer_id_label": null,
+      "price": "ARS1.00",
+      "term": {
+        "aid": "hosLu9lGKn",
+        "term_id": "TMMD1M00JKH1",
+        "resource": {
+          "rid": "RNKAHUD",
+          "aid": "hosLu9lGKn",
+          "deleted": false,
+          "disabled": false,
+          "create_date": 1508966028,
+          "update_date": 1508966028,
+          "publish_date": 1508966028,
+          "name": "Prueba gretis",
+          "description": "",
+          "image_url": null,
+          "type": "standard",
+          "type_label": "Standard",
+          "purchase_url": null,
+          "resource_url": null
+        },
+        "name": "Prueba Gratis",
+        "description": "",
+        "type": "payment",
+        "type_name": "Payment",
+        "create_date": 1508966115
+      },
+      "refundable": false,
+      "tax_billing_plan": "ARS1 per month / free trial for 1 month",
+      "external_transaction_id": null,
+      "tax": null
+    },
+    "user_payment_info": {
+      "user_payment_info_id": "PM8PXXZD52VE",
+      "description": "Card ending in 0486",
+      "upi_nickname": null,
+      "upi_number": "XXXX-XXXX-XXXX-0486",
+      "upi_expiration_month": 12,
+      "upi_expiration_year": 2021,
+      "upi_postal_code": null,
+      "upi_identifier": "v"
+    },
+    "subscription": {
+      "subscription_id": "RCRH1WRIZZVC",
+      "auto_renew": true,
+      "next_bill_date": 1511702760,
+      "payment_method": "Card ending in 0486",
+      "user_payment_info_id": "PM8PXXZD52VE",
+      "upi_ext_customer_id": "",
+      "upi_ext_customer_id_label": null,
+      "billing_plan": "ARS1 per month / free trial for 1 month",
+      "cancelable": true,
+      "cancelable_and_refundadle": false,
+      "status": "active",
+      "status_name": "Active",
+      "status_name_in_reports": "active",
+      "term": {
+        "aid": "hosLu9lGKn",
+        "term_id": "TMMD1M00JKH1",
+        "resource": {
+          "rid": "RNKAHUD",
+          "aid": "hosLu9lGKn",
+          "deleted": false,
+          "disabled": false,
+          "create_date": 1508966028,
+          "update_date": 1508966028,
+          "publish_date": 1508966028,
+          "name": "Prueba gretis",
+          "description": "",
+          "image_url": null,
+          "type": "standard",
+          "type_label": "Standard",
+          "purchase_url": null,
+          "resource_url": null
+        },
+        "name": "Prueba Gratis",
+        "description": "",
+        "type": "payment",
+        "type_name": "Payment",
+        "create_date": 1508966115
+      },
+      "user": {
+        "first_name": "Mauricio",
+        "last_name": "Rucci",
+        "email": "mauriciorucci@gmail.com",
+        "uid": "965342",
+        "image1": null,
+        "create_date": 1507215009
+      },
+      "resource": {
+        "rid": "RNKAHUD",
+        "aid": "hosLu9lGKn",
+        "deleted": false,
+        "disabled": false,
+        "create_date": 1508966028,
+        "update_date": 1508966028,
+        "publish_date": 1508966028,
+        "name": "Prueba gretis",
+        "description": "",
+        "image_url": null,
+        "type": "standard",
+        "type_label": "Standard",
+        "purchase_url": null,
+        "resource_url": null
+      },
+      "start_date": 1509020760,
+      "user_address": {
+        "user_address_id": "UA3BAFAZTUO4",
+        "region": {
+          "region_name": "Córdoba",
+          "region_code": "CD",
+          "region_id": "RYGLN1LS14XF"
+        },
+        "country": {
+          "country_name": "Argentina",
+          "country_code": "AR",
+          "country_id": "CCKRG1DD16OW",
+          "regions": [
+            {
+              "region_name": "Ciudad Autónoma de Buenos Aires",
+              "region_code": "CF",
+              "region_id": "RROVL7LW08AL"
+            },
+            {
+              "region_name": "Buenos Aires",
+              "region_code": "BA",
+              "region_id": "RFTCF7AW28LR"
+            },
+            {
+              "region_name": "Catamarca",
+              "region_code": "CT",
+              "region_id": "RAABG1WX98PK"
+            },
+            {
+              "region_name": "Chaco",
+              "region_code": "CC",
+              "region_id": "RGBLB9PB55HR"
+            },
+            {
+              "region_name": "Chubut",
+              "region_code": "CH",
+              "region_id": "RMLSE8NC96JU"
+            },
+            {
+              "region_name": "Córdoba",
+              "region_code": "CD",
+              "region_id": "RYGLN1LS14XF"
+            },
+            {
+              "region_name": "Corrientes",
+              "region_code": "CR",
+              "region_id": "RHXQL3OP30GY"
+            },
+            {
+              "region_name": "Entre Ríos",
+              "region_code": "ER",
+              "region_id": "RCNKL9JY79IV"
+            },
+            {
+              "region_name": "Formosa",
+              "region_code": "FO",
+              "region_id": "RCCFR7US17CJ"
+            },
+            {
+              "region_name": "Jujuy",
+              "region_code": "JY",
+              "region_id": "RLGUG8OD07TL"
+            },
+            {
+              "region_name": "La Pampa",
+              "region_code": "LP",
+              "region_id": "RZNQS6XS89DZ"
+            },
+            {
+              "region_name": "La Rioja",
+              "region_code": "LR",
+              "region_id": "RLGZE8SC29WP"
+            },
+            {
+              "region_name": "Mendoza",
+              "region_code": "MZ",
+              "region_id": "RLLVT3NM91XB"
+            },
+            {
+              "region_name": "Misiones",
+              "region_code": "MN",
+              "region_id": "ROSWG5BP71HB"
+            },
+            {
+              "region_name": "Neuquén",
+              "region_code": "NQ",
+              "region_id": "RKUVU4AS38FM"
+            },
+            {
+              "region_name": "Río Negro",
+              "region_code": "RN",
+              "region_id": "RUNFK4AT74VZ"
+            },
+            {
+              "region_name": "Salta",
+              "region_code": "SA",
+              "region_id": "RKDKR0IL16PD"
+            },
+            {
+              "region_name": "San Juan",
+              "region_code": "SJ",
+              "region_id": "RXCUQ8JE85GP"
+            },
+            {
+              "region_name": "San Luis",
+              "region_code": "SL",
+              "region_id": "RGMSB1LW04JK"
+            },
+            {
+              "region_name": "Santa Cruz",
+              "region_code": "SC",
+              "region_id": "RVANP4IH59DR"
+            },
+            {
+              "region_name": "Santa Fe",
+              "region_code": "SF",
+              "region_id": "RACIM3MF64PM"
+            },
+            {
+              "region_name": "Santiago del Estero",
+              "region_code": "SE",
+              "region_id": "RPOYB4YM52MU"
+            },
+            {
+              "region_name": "Tierra del Fuego",
+              "region_code": "TF",
+              "region_id": "RMCBZ6IS60LX"
+            },
+            {
+              "region_name": "Tucumán",
+              "region_code": "TM",
+              "region_id": "RHRPX6SN48VP"
+            }
+          ]
+        },
+        "city": "Cordoba",
+        "postal_code": "5000 Envio",
+        "company_name": null,
+        "first_name": "Nombre Envio",
+        "last_name": "Apellido Envio",
+        "address1": "Domicilio Envio",
+        "address2": "Barrio Envio",
+        "phone": "Envio",
+        "additional_fields": "{}"
+      },
+      "is_in_trial": true,
+      "trial_period_end_date": 1511702760,
+      "trial_amount": 0,
+      "trial_currency": "ARS",
+      "charge_count": 0
+    }
+  }
+}

@@ -103,6 +103,7 @@ class Client
             case 404:
                 throw new HttpRequestException($data->message);
                 break;
+            case 400:
             case 805:
             case 5001:
                 throw new InvalidArgumentException($data->message);
