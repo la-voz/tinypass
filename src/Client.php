@@ -122,6 +122,9 @@ class Client
         return new UserAccessEndpoint($this);
     }
 
+    /**
+     * @return \LaVoz\Tinypass\Endpoint\ConversionEndpoint
+     */
     public function conversion()
     {
         return new ConversionEndpoint($this);
