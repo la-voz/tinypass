@@ -3,6 +3,7 @@
 namespace LaVoz\Tinypass;
 
 use GuzzleHttp\Client as GuzzleClient;
+use LaVoz\Tinypass\Endpoint\ConversionEndpoint;
 use LaVoz\Tinypass\Endpoint\UserAccessEndpoint;
 use LaVoz\Tinypass\Exception\{
     HttpRequestException,
@@ -119,6 +120,11 @@ class Client
     public function userAccess()
     {
         return new UserAccessEndpoint($this);
+    }
+
+    public function conversion()
+    {
+        return new ConversionEndpoint($this);
     }
 
 }
