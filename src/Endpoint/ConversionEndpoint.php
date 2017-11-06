@@ -2,8 +2,14 @@
 
 namespace LaVoz\Tinypass\Endpoint;
 
+/**
+ * Class ConversionEndpoint
+ *
+ * @package LaVoz\Tinypass\Endpoint
+ */
 class ConversionEndpoint
 {
+
     /**
      * @var \LaVoz\Tinypass\Client
      */

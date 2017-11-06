@@ -107,6 +107,7 @@ class Client
             case 400:
             case 805:
             case 5001:
+            case 5003:
                 throw new InvalidArgumentException($data->message);
                 break;
         }

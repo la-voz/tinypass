@@ -2,8 +2,6 @@
 
 namespace LaVoz\Tinypass\Endpoint;
 
-use LaVoz\Tinypass\Exception\InvalidArgumentException;
-
 /**
  * Class UserAccessEndpoint
  *
@@ -11,6 +9,7 @@ use LaVoz\Tinypass\Exception\InvalidArgumentException;
  */
 class UserAccessEndpoint
 {
+
     /**
      * @var \LaVoz\Tinypass\Client
      */
@@ -42,6 +41,17 @@ class UserAccessEndpoint
             $params['emails'] = $user['emails'];
         }
         return $this->client->call('/publisher/user/access/grant', $params);
+    }
+
+    /**
+     * @param string $access_id
+     *
+     * @return mixed
+     */
+    public function revoke($access_id)
+    {
+        return $this->client->call('/publisher/user/access/revoke',
+            ['access_id' => $access_id]);
     }
 
 }

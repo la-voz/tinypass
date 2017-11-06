@@ -1,0 +1,34 @@
+{
+  "code" : 0,
+  "ts" : 1509994577,
+  "access" : {
+    "access_id" : "access_id",
+    "parent_access_id" : null,
+    "granted" : false,
+    "resource" : {
+      "rid" : "rid",
+      "aid" : "aid",
+      "deleted" : false,
+      "disabled" : false,
+      "create_date" : 1509125212,
+      "update_date" : 1509125212,
+      "publish_date" : 1509125212,
+      "name" : "Suscription",
+      "description" : "",
+      "image_url" : null,
+      "type" : "standard",
+      "type_label" : "Standard",
+      "purchase_url" : null,
+      "resource_url" : null
+    },
+    "user" : {
+      "first_name" : "Test",
+      "last_name" : "Test",
+      "email" : "test@test.com",
+      "uid" : "1",
+      "image1" : null,
+      "create_date" : 1507145940
+    },
+    "start_date" : 1509715496
+  }
+}

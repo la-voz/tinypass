@@ -35,4 +35,31 @@ class UserAccessEndpointTest extends EndpointTestCase
         $this->assertEquals(0, $response->code);
     }
 
+    public function test_revoke_empty_access_id()
+    {
+        $this->expectException(InvalidArgumentException::class);
+        $this->client->getGuzzleClient()->getConfig('handler')
+            ->setHandler($this->mock_response('revoke_empty_access_id.json'));
+        $endpoint = new UserAccessEndpoint($this->client);
+        $endpoint->revoke('');
+    }
+
+    public function test_revoke_wrong_access_id()
+    {
+        $this->expectException(InvalidArgumentException::class);
+        $this->client->getGuzzleClient()->getConfig('handler')
+            ->setHandler($this->mock_response('revoke_wrong_access_id.json'));
+        $endpoint = new UserAccessEndpoint($this->client);
+        $endpoint->revoke('wrong_id');
+    }
+
+    public function test_revoke_ok()
+    {
+        $endpoint = new UserAccessEndpoint($this->client);
+        $this->client->getGuzzleClient()->getConfig('handler')
+            ->setHandler($this->mock_response('revoke_ok.json'));
+        $response = $endpoint->revoke('ACCESS_ID');
+        $this->assertEquals(0, $response->code);
+    }
+
 }
