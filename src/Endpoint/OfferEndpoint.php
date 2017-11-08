@@ -5,20 +5,18 @@ namespace LaVoz\Tinypass\Endpoint;
 use LaVoz\Tinypass\Client;
 
 /**
- * Class ConversionEndpoint
- *
+ * Class OfferEndpoint
  * @package LaVoz\Tinypass\Endpoint
  */
-class ConversionEndpoint
+class OfferEndpoint
 {
-
     /**
-     * @var \LaVoz\Tinypass\Client
+     * @var Client
      */
     private $client;
 
     /**
-     * ConversionEndpoint constructor.
+     * OfferEndpoint constructor.
      *
      * @param \LaVoz\Tinypass\Client $client
      */
@@ -27,15 +25,12 @@ class ConversionEndpoint
         $this->client = $client;
     }
 
-
     /**
-     * @param $access_id
-     *
+     * @param $offer_id
      * @return mixed
      */
-    public function get($access_id)
+    public function get($offer_id)
     {
-        return $this->client->call('/publisher/conversion/get', compact('access_id'));
+        return $this->client->call('/publisher/offer/get', compact('offer_id'));
     }
-
 }

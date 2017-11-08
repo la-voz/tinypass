@@ -4,6 +4,7 @@ namespace LaVoz\Tinypass;
 
 use GuzzleHttp\Client as GuzzleClient;
 use LaVoz\Tinypass\Endpoint\ConversionEndpoint;
+use LaVoz\Tinypass\Endpoint\OfferEndpoint;
 use LaVoz\Tinypass\Endpoint\UserAccessEndpoint;
 use LaVoz\Tinypass\Exception\{
     HttpRequestException,
@@ -131,4 +132,11 @@ class Client
         return new ConversionEndpoint($this);
     }
 
+    /**
+     * @return \LaVoz\Tinypass\Endpoint\OfferEndpoint
+     */
+    public function offer()
+    {
+        return new OfferEndpoint($this);
+    }
 }

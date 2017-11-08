@@ -1,0 +1,8 @@
+{
+  "code" : 400,
+  "ts" : 1510150002,
+  "validation_errors" : {
+    "message" : "offer_id cannot be empty"
+  },
+  "message" : "Validation errors, see details"
+}

@@ -2,6 +2,8 @@
 
 namespace LaVoz\Tinypass\Endpoint;
 
+use LaVoz\Tinypass\Client;
+
 /**
  * Class UserAccessEndpoint
  *
@@ -20,7 +22,7 @@ class UserAccessEndpoint
      *
      * @param \LaVoz\Tinypass\Client $client
      */
-    public function __construct($client)
+    public function __construct(Client $client)
     {
         $this->client = $client;
     }
@@ -34,12 +36,15 @@ class UserAccessEndpoint
     public function grant($rid, $user = [])
     {
         $params = ['rid' => $rid];
+
         if (!empty($user['uid'])) {
             $params['uid'] = $user['uid'];
         }
+
         if (!empty($user['emails'])) {
             $params['emails'] = $user['emails'];
         }
+
         return $this->client->call('/publisher/user/access/grant', $params);
     }
 
@@ -50,8 +55,7 @@ class UserAccessEndpoint
      */
     public function revoke($access_id)
     {
-        return $this->client->call('/publisher/user/access/revoke',
-            ['access_id' => $access_id]);
+        return $this->client->call('/publisher/user/access/revoke', compact('access_id'));
     }
 
 }

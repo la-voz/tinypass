@@ -1,0 +1,8 @@
+{
+  "code": 400,
+  "ts": 1510149934,
+  "validation_errors": {
+    "id": "Invalid id for 'wrong_offer_id'"
+  },
+  "message": "Validation errors, see details"
+}
