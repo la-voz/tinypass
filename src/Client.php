@@ -91,10 +91,12 @@ class Client
 
         if ($this->getGuzzleClient()->getConfig('method') === 'post') {
             $response = $this->getGuzzleClient()->post('/api/v3' . $path, [
+                'verify' => false,
                 'form_params' => $params,
             ]);
         } else {
             $response = $this->getGuzzleClient()->get('/api/v3' . $path, [
+                'verify' => false,
                 'query' => $params,
             ]);
         }
