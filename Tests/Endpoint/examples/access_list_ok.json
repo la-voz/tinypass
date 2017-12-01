@@ -1,0 +1,110 @@
+{
+  "code": 0,
+  "ts": 1512150390,
+  "limit": 100,
+  "offset": 0,
+  "total": 5,
+  "count": 5,
+  "data": [
+    {
+      "access_id": "UNyYfmlM87bF",
+      "parent_access_id": null,
+      "granted": true,
+      "resource": {
+        "rid": "RI2EEYT",
+        "aid": "hosLu9lGKn",
+        "name": "Suscriptor Edición Papel",
+        "description": "",
+        "image_url": null
+      },
+      "user": {
+        "first_name": "Federico",
+        "last_name": "Soria",
+        "email": "fsoria@lavozdelinterior.com.ar",
+        "uid": "1072791",
+        "create_date": 1507145940
+      },
+      "start_date": 1511968789
+    },
+    {
+      "access_id": "AntC3nBPQpxc",
+      "parent_access_id": null,
+      "granted": true,
+      "resource": {
+        "rid": "RATT0ZF",
+        "aid": "hosLu9lGKn",
+        "name": "Digital + Club La Voz + PDF",
+        "description": "",
+        "image_url": null
+      },
+      "user": {
+        "first_name": "Federico",
+        "last_name": "Soria",
+        "email": "fsoria@lavozdelinterior.com.ar",
+        "uid": "1072791",
+        "create_date": 1507145940
+      },
+      "start_date": 1511958053
+    },
+    {
+      "access_id": "u5TxUp23P6fd",
+      "parent_access_id": null,
+      "granted": true,
+      "resource": {
+        "rid": "RUIAN5I",
+        "aid": "hosLu9lGKn",
+        "name": "Digital básico",
+        "description": "",
+        "image_url": null
+      },
+      "user": {
+        "first_name": "Federico",
+        "last_name": "Soria",
+        "email": "fsoria@lavozdelinterior.com.ar",
+        "uid": "1072791",
+        "create_date": 1507145940
+      },
+      "start_date": 1511809709
+    },
+    {
+      "access_id": "dwJWXYbBwFy1",
+      "parent_access_id": null,
+      "granted": true,
+      "resource": {
+        "rid": "RNKAHUD",
+        "aid": "hosLu9lGKn",
+        "name": "Acceso personal La Voz / DaD",
+        "description": "",
+        "image_url": null
+      },
+      "user": {
+        "first_name": "Federico",
+        "last_name": "Soria",
+        "email": "fsoria@lavozdelinterior.com.ar",
+        "uid": "1072791",
+        "create_date": 1507145940
+      },
+      "start_date": 1511529618
+    },
+    {
+      "access_id": "qHjg2e2AHwRC",
+      "parent_access_id": null,
+      "granted": true,
+      "resource": {
+        "rid": "RU7DL24",
+        "aid": "hosLu9lGKn",
+        "name": "Desarrollo La Voz",
+        "description": "",
+        "image_url": null
+      },
+      "user": {
+        "first_name": "Federico",
+        "last_name": "Soria",
+        "email": "fsoria@lavozdelinterior.com.ar",
+        "uid": "1072791",
+        "create_date": 1507145940
+      },
+      "start_date": 1509643771
+    }
+  ]
+}

@@ -3,6 +3,7 @@
 namespace LaVoz\Tinypass;
 
 use GuzzleHttp\Client as GuzzleClient;
+use LaVoz\Tinypass\Endpoint\AccessEndpoint;
 use LaVoz\Tinypass\Endpoint\ConversionEndpoint;
 use LaVoz\Tinypass\Endpoint\OfferEndpoint;
 use LaVoz\Tinypass\Endpoint\UserAccessEndpoint;
@@ -140,5 +141,13 @@ class Client
     public function offer()
     {
         return new OfferEndpoint($this);
+    }
+
+    /**
+     * @return \LaVoz\Tinypass\Endpoint\AccessEndpoint
+     */
+    public function access()
+    {
+        return new AccessEndpoint($this);
     }
 }
